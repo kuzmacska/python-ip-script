@@ -1,5 +1,5 @@
 podTemplate(containers: [
-  containerTemplate(name: 'python', image: 'python:3.6.7', ttyEnabled: true, command: 'cat')
+  containerTemplate(name: 'python', image: 'broadinstitute/python-requests:3', ttyEnabled: true, command: 'cat')
   ]) {
 
   node(POD_LABEL) {
