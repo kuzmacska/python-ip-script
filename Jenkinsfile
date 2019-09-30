@@ -1,4 +1,3 @@
-pipelineJob('sample') {
 podTemplate(containers: [
   containerTemplate(name: 'python', image: 'broadinstitute/python-requests:3', ttyEnabled: true, command: 'cat')
   ]) {
@@ -11,5 +10,4 @@ podTemplate(containers: [
       }
     }
   }
-}
 }
